@@ -1,0 +1,120 @@
+ .box1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body {
+    /*background-color: #a1def7;*/
+    
+    /*background-image: linear-gradient(to left, #7dd6fa , pink);*/
+}
+
+
+
+a{
+    color : black;
+}
+
+.advantage {
+    text-align: center;
+
+}
+
+.align {
+    align-content: center;
+    text-align: center;
+    margin-left: 4%;
+    margin-top: 2%;
+    background-color: #fff;
+    padding: 1%;
+    border-radius: 3%;
+}
+
+#align {
+    /*margin-left: 10%;*/
+}
+
+.shade {
+    /*background-image: linear-gradient(to right, #7dd6fa , pink);*/
+
+}
+.shade1 {
+    /*background-image: linear-gradient(to left, #7dd6fa , pink);*/
+    
+}
+/*#background {
+    background-color: yellow;
+ }*/
+ a.click {
+    color : blue;
+}
+/**/
+
+
+
+/*Mobile*/
+
+/*######### Mobile ###########*/
+
+@media screen and (max-width: 680px) {
+  ul.topnav li:not(:nth-child(1)) {
+    display: none;
+  }
+.bigger {
+    font-size: 50px; 
+  }
+
+  .resort_location {
+  	padding-top: 25%;
+}
+
+ 
+  ul.topnav li.dropdownIcon {
+    display: block;
+    float: right;
+  }
+  
+  ul.topnav.responsive li.dropdownIcon {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  ul.topnav.responsive {
+    position: relative;
+  }
+  
+  ul.topnav.responsive li {
+    display: inline;
+    float: none; 
+  }
+  
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+
+
+/*resorts*/
+
+h5.card-title {
+  color: cyan;
+}
+
+
+}
+
+/*footer links*/
+
+.footer_link {
+	margin-left: 3%;
+    color: #000000;
+    font-size: 20px;
+}
+
+.footer_text {
+	text-align: center;
+}
+

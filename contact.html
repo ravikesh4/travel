@@ -1,0 +1,197 @@
+<!-- start of navbar section -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <title>Travel</title>
+  </head>
+  <body>
+    <!-- As a link -->
+<!-- <nav class="navbar navbar-light ">
+  <a class="navbar-brand" href="#">Navbar</a>
+</nav> -->
+
+<!-- As a heading -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="index.html">Travel</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="about.html">About Us</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="resorts.html">Resorts</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="packages.html">Packages</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="places.html">Tourist Places</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+      </li>
+
+     
+      
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
+      <a href="#" style="color: white;" class="btn success my-2 my-sm-0" type="submit">Blog</a>
+    </form>
+  </div>
+</nav>
+<!-- End Of Navbar -->
+
+
+<!-- end of navbar section -->
+<style type="text/css">
+      .AA{
+        float: left;
+      }
+      .aaa{
+        /*margin-left: 2%;*/
+        font-size: 18px;
+        color: black;
+      }
+      .BB{
+        float: right;
+      }
+      
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      
+    </style>
+
+
+<div style="background-color: lightgray;">
+      <div >
+        <img src="images/packages.jpg" alt="packages image" width="100%" height="400"><br><br>
+        <!-- <div class="container">
+          <div class="AA">
+            <a href="#">Home|</a>
+            <a href="#" style="color: red;">About Us</a>
+          </div>
+          <div class="BB">
+          <a href="#">Home</a>
+          <i class="fa fa-phone-square"></i>
+          <b>  <a class="aaa" href="#" style="color: red;">6789878756</a></b>
+          </div>
+        </div> -->
+        </div>
+
+       
+       <div style="  padding: 2%" >
+       <div class="container">
+        <h3 style="">Contact Us</h3>
+        <hr style="background-color: red; width: 20%; float: left; margin: auto; height: 1px;"><br>
+        <p style=" margin: auto;">A Unit of Kabini Travel (INDIA)</p><br>
+         
+       </div>
+
+       <!-- address code -->
+
+        <div class="row">
+
+          <div class="col">
+            
+            <div class="shadow-lg p-3 mb-5 bg-white rounded">
+              <h2 class="text-center"> Our Address</h2><br>
+              <!-- <p class="text-center"></p> -->
+              <p class="text-center">
+                <i class="fa fa-map-marker" aria-hidden="true"></i> HRBR Layout 2nd Block, HRBR Layout, Kalyan Nagar, Bengaluru, Karnataka 560043
+              </p>
+              <!-- <p class="text-center"><img src="images/offers1.jpg" width="50" height="50" style="border-radius: 50%"> <br><b> Ravikesh Yadav </b></p> -->
+            </div>
+          </div>
+
+
+       <!-- map code -->
+       <div id="map"></div>
+
+
+
+
+
+        <script>
+          var map;
+          function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), {
+              center: {lat: -34.397, lng: 150.644},
+              zoom: 8
+            });
+          }
+        </script>
+        <script async defer
+          src="https://maps.googleapis.com/maps/api/js?key=key&callback=initMap">
+        </script>
+
+      </div>
+     </div>
+</div>
+
+
+
+
+
+
+<!-- start of footer section -->
+
+
+
+
+
+<!-- starting of footer -->
+<div class="footer_text">
+   <div class="container">
+      <div>
+        <a href="index.html" class="footer_link">Home</a>
+        <a href="about.html" class="footer_link">About Us</a>
+        <a href="resorts.html" class="footer_link">Resorts</a>
+        <a href="packages.html" class="footer_link">Packages</a>
+        <a href="places.html" class="footer_link">Tourist Places</a> 
+        <a href="contact.html" class="footer_link">Contact Us</a>
+        <a href="feedback.html" class="footer_link">Testimonials</a>
+        <a href="#" class="footer_link">Blog</a>
+      </div>
+      <br>
+      <div>
+      <p><i class="fa fa-copyright"></i> &nbsp;copyright 2019 travel kabini(india)</p>
+      </div>
+    </div>
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+<!-- end of footer section
